@@ -1,0 +1,223 @@
+body {
+	background-color: #fff;
+	margin: 20px;
+	font: 13px/20px Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+header{
+	position: fixed;
+	left:0px;
+	top:0px;
+	width:100%;
+	height: 60px;
+	border-bottom: 1px solid #aaa;
+	z-index: 10;
+	background: -webkit-gradient(linear,center top,center bottom,from(#000), to(#555));
+	background: -moz-linear-gradient(top, #000, #555);
+	box-shadow: 0px 5px 30px #555;
+	color: #fff;
+	min-width: 1024px;
+}
+footer{
+	position: fixed;
+	left:0px;
+	bottom:0px;
+	width:100%;
+	height: 0px;
+	border-top: 1px solid #aaa;
+	z-index: 10;
+	box-shadow: 0px -5px 30px #555;
+	background: -webkit-gradient(linear,center top,center bottom,from(#777), to(#333));
+	background: -moz-linear-gradient(top, #777, #333);
+	color: #fff;
+	text-align:center;
+	text-shadow: 0 0 10px #fff;
+	min-width: 1024px;
+	display:none;
+}
+section
+{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	margin: 60px 0px 0px;
+	padding: 30px;
+	z-index: 0;
+	overflow-y: auto;
+	min-width: 964px;
+}
+#maintitle {
+	color: #fff;
+	float:left;
+}
+
+#maintitle h1{
+	color: #fff;
+	text-shadow: 0 0 10px #ff0, 0 0 20px #ff0;
+	font-size:30px;
+	padding-top: 20px;
+}
+#menu {
+	position: absolute;
+	top: 70px;
+	left: 0px;
+	width: 100%;
+	color: #fff;
+	border-top: 1px solid #333;
+	background: -webkit-gradient(linear,center top,center bottom,from(#ccc), to(#000));
+	background: -moz-linear-gradient(top, #ccc, #000);
+}
+#menulist {
+	float:left;
+	height: 24px;
+	margin-top:17px;
+}
+#menuitems {
+	padding:0;
+	margin:0;
+	height: 30px;
+}
+#menuitems li {
+	list-style-type: none;
+	display: inline;
+	line-height: 30px;
+	cursor: pointer;
+}
+#menuitems li span {
+	padding: 5px 5px;
+	font-size: 14px;
+	height: 30px;
+}
+/*#menuitems li span:hover {
+	background: -webkit-gradient(linear,center top,center bottom,from(#000), to(#ccc));
+	background: -moz-linear-gradient(top, #000, #ccc);
+}*/
+.curmenu{
+	color: #ff0;
+	text-shadow: 0 0 10px #ff0, 0 0 20px #ff0;
+}
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+h3 {
+	margin: 10px;
+	border-bottom: 1px solid #D0D0D0;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding: 12px 10px 12px 10px;
+}
+
+#body {
+	padding-top: 20px;
+	padding-bottom: 10px;
+	margin: 0 15px 0px 15px;
+}
+#body img{ max-width:960px;}
+
+p.footer {
+	text-align: right;
+	font-size: 11px;
+	border-top: 1px solid #D0D0D0;
+	line-height: 32px;
+	padding: 0 10px 0 10px;
+	margin: 20px 0 0 0;
+}
+
+#container {
+	margin: 10px auto;
+	border: 1px solid #D0D0D0;
+	box-shadow: 0 0 8px #D0D0D0;
+	width: 1000px;
+}
+#header {
+	border-bottom: 1px solid #D0D0D0;
+	height:60px;
+}
+#noti_div{
+	width: 25%;
+	float: left;
+	margin-left: 2%;
+	min-height: 480px;
+	border: 1px solid #D0D0D0;
+	min-width: 200px;
+}
+#news_div{
+	width: 40%;
+	float: left;
+	margin-right: 2.5%;
+	margin-left: 2.5%;
+	min-height: 480px;
+	border: 1px solid #D0D0D0;
+	min-width: 250px;
+}
+#prog_div{
+	width: 25%;
+	float: left;
+	margin-right: 2%;
+	min-height: 480px;
+	border: 1px solid #D0D0D0;
+	min-width: 200px;
+}
+.listtable {
+	margin-top: 10px;
+	margin-bottom: 20px;
+	background: #ccc;
+}
+.listtable th {
+	background: #ddd;
+	width: 100px;
+}
+.listtable td {
+	background: #eee;
+	padding: 3px;
+}
+.listtable tr:hover {
+	cursor: pointer;
+}
+a {
+	text-decoration: none;
+	color: #33b;
+}
+.maintd {
+	 border-bottom: 1px dotted #d0d0d0;
+}
+.nicEdit-main {cursor:text;}
+.discussiondiv{width:90%;margin:0px auto 20px; border:1px solid #ddd; padding:20px;}
+.listtable .rightcmtth{background-color:#0a0;}
+.discussiondiv h1{float:left;}
+.artwriter{float:right; margin-top:30px;}
+.discussionheader{min-height:60px;}
+
+.portfoliodiv{
+	width:200px;
+	height:200px;
+	float:left;
+	margin: 20px;
+	overflow: hidden;
+}
+.portfoliodiv span{
+	display:block;
+}
+.portfoliodiv span.title{
+	font-size:16px;
+}
